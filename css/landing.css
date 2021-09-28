@@ -1,0 +1,125 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+#nombre1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menuArriba{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+#menuArriba a{
+    text-decoration: none;
+    color: black;
+}
+#recuadroImage{
+    background-image: url('../images/doit.png');
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+.search{
+    margin-top: 45px;
+    width: 300px;
+    height: 30px;
+}
+
+
+.btn{
+    margin-top: 45px;
+    background-image: url('../images/lupa.png');
+    background-size:contain;
+    width: 40px; 
+    height: 40px;
+    font-size: 35px;
+}
+
+
+#intro{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+#uno{
+    width: 90%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+#spice{
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+}
+#spice2{
+    width: 80%;
+}
+#cmmi{
+    background-color: honeydew;
+    text-align: center;
+}
+
+#CMMI2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#nv1{
+    width: 95%;
+    margin-bottom: 0.5em;
+    text-align: center;
+    background-color: honeydew;
+}
+
+#nv2{
+    background-color: honeydew;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+#footer{
+    background-color:aqua;
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        font: 12px sans-serif;
+        
+    }
+    .texto{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+img{
+
+    width: 90%;
+  
+    align-items: center;
+}
+
+#comentarios{
+    text-align: center;
+}
+
